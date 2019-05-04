@@ -7,7 +7,7 @@ package sistemapetshop;
 
 /**
  *
- * @author uelber
+ * @author Uelber Henrique
  */
 public class Cachorro extends CadastroPet{
     
@@ -32,8 +32,8 @@ public class Cachorro extends CadastroPet{
         this.policia=policia;
     }
     
-    public String toString (){
-        return(super.toString() + "" + this.policia);
+    public String toString(){
+        return(super.toString() + "\n É policial: " + this.policia);
     }
     
     

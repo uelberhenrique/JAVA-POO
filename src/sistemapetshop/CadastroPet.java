@@ -7,7 +7,7 @@ package sistemapetshop;
 
 /**
  *
- * @author uelber
+ * @author Uelber Henrique
  */
 public class CadastroPet {
     
@@ -78,6 +78,6 @@ public class CadastroPet {
     
     
     public String toString(){
-        return (this.nome + "" + this.apelido + "" + this.anoNascimento + "" + this.nomeDono + "" + this.raca);
+        return ("\n Nome: " + this.nome + "\n Apelido: " + this.apelido + " \n Ano de Nascimento: " + this.anoNascimento + "\n Nome do Dono: " + this.nomeDono + "\n Raça: " + this.raca);
     }
 }

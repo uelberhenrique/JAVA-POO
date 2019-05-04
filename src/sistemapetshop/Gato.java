@@ -7,7 +7,7 @@ package sistemapetshop;
 
 /**
  *
- * @author uelber
+ * @author Uelber Henrique
  */
 public class Gato  extends CadastroPet{
     
@@ -17,13 +17,8 @@ public class Gato  extends CadastroPet{
         super(nome, apelido, endereco, anoNascimento, nomeDono, raca);
         this.anoUltimaVacina=anoUltimaVacina;
     }
-   
-   /*/ public Gato(String nome, String apelido, String endereco, int anoNascimento, String nomeDono, String raca, int anoUltimaVacina){
-        super(nome, apelido, endereco, anoNascimento, nomeDono, raca);
-        this.anoUltimaVacina=anoUltimaVacina;
-    } */
     
-    public int getAnoUtimaVacina (){
+    public int getAnoUtimaVacina(){
         return anoUltimaVacina;
     }
     
@@ -31,4 +26,7 @@ public class Gato  extends CadastroPet{
         this.anoUltimaVacina=anoUltimaVacina;
     }
     
+    public String toString(){
+        return(super.toString() + "\n Ano da Última Vacina: " + this.anoUltimaVacina);
+    }
 }
